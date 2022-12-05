@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey_form.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <img src="https://images.unsplash.com/photo-1497366858526-0766cadbe8fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80" alt="meeting" />
+    <form id="survey-form">
+      <header>
+        <h1 id="title">*Company Name*</h1>
+        <p id="description">Survey Form </p>
+      </header>
+        <label id="name-label"> Name <input type="text" id="name" placeholder="John Doe" required></label>
+        <label id="email-label">Email <input type="email" id="email" placeholder="enteremail@example.com" required></label>
+        <label id="email-label">Company Name <input type="text" id="company-name" placeholder="If you did not use company name, please type in NA" required></label>
+        <label id="bar4">Which job was performed for you
+          <select id="dropdown">Select current role
+            <option id="zero">Select your option</option>
+            <option id="one">Silver</option>
+            <option id="two">Gold</option>
+            <option id="three">Platinum</option>
+          </select>
+        </label>
+      <fieldset>Would you recommend my services to a friend?
+        <label class="checkbox"><input type="radio" name="boxy" value='1'>Yes</input></label>
+        <label class="checkbox"><input type="radio" name="boxy" value='2'>No</input></label>
+        <label class="checkbox"><input type="radio" name="boxy" value='3'>Not Sure</input></label>
+      </fieldset>
+      <fieldset>What would you like to see improve?
+        <label><input type="checkbox" name="boxy" value='A'>Animation</input></label>
+        <label><input type="checkbox" name="boxy" value='B'>Color Palette</input></label>
+        <label><input type="checkbox" name="boxy" value='C'>Layout</input></label>
+        <label><input type="checkbox" name="boxy" value='D'>Calligraphy</input></label>
+      </fieldset>
+      <label>Please Provide Feed back
+        <textarea id="feedback" rows="3" cols="30" placeholder="Was it a good website?"></textarea>
+        <input id="submit" type="submit" value="Submit" />
+      </label>
+    </form>
+  </body>
+</html>
