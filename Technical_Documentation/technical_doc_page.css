@@ -1,0 +1,43 @@
+html {
+  background-color: rgba(251,250,245,1);
+}
+
+nav {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  min-width: 200px;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  border-right: solid;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+  list-style: none;
+  font-size: 20px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.tink{
+  border-bottom: 1px solid;
+}
+
+main {
+  display: flex;
+}
+
+.main-doc {
+  display: block;
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+}
